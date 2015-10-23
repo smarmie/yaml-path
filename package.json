@@ -1,0 +1,30 @@
+{
+  "name": "yaml-path",
+  "main": "./lib/yaml-path",
+  "version": "0.0.1",
+  "description": "Show current position in YAML",
+  "keywords": [
+    "yaml",
+    "statusbar"
+  ],
+  "repository": "https://github.com/smarmie/yaml-path",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    },
+    "linter-plus-self": {
+      "versions": {
+        "0.1.0": "consumeLinter"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-linter": "^3.2.0"
+  }
+}
