@@ -1,7 +1,7 @@
 {
   "name": "yaml-path",
   "main": "./lib/yaml-path",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Show current position in YAML",
   "keywords": [
     "yaml",
