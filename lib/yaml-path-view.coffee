@@ -38,7 +38,7 @@ class YamlPathView extends HTMLElement
   getYamlKeyOnSpecifiedRow: (row) ->
     currentRow = @activeTextEditor().lineTextForBufferRow(row)
     # strip whitespace
-    strippedCurrentRow = currentRow.replace /^s+|\s+/g, ""
+    strippedCurrentRow = currentRow.replace /^\s+|\s+/g, ""
     # strip trailing colon
     strippedCurrentRow = strippedCurrentRow.replace /:/g, ""
 
